@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: var(--g-color-scroll-track);
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 15px;
+}

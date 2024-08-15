@@ -1,0 +1,20 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "src/utils/router/index.tsx",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "/api/$1.js"
+      }
+    ],
+    "env": {
+      "VITE_API_BASE_URL": "http://37.60.235.86:8001/api/v1",
+      "VITE_TESTAPI_BASE_URL": "http://37.60.235.86:8001/api/v1"
+    }
+  }
+  

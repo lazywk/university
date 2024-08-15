@@ -1,0 +1,6 @@
+build
+dist
+public
+src
+vite.config.ts
+tsconfig.ts
